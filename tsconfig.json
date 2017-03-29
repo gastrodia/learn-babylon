@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": true,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "sourceMap": true,
+        "noLib": false,
+        "jsx": "react",
+        "outDir": "./dist/",
+        "noResolve": true,
+        "preserveConstEnums": true,
+        "moduleResolution": "Node"
+    },
+    "filesGlob": [
+        "./src/**/*.ts",
+        "./src/**/*.tsx"
+    ]
+}
